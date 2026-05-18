@@ -1,0 +1,42 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMap | Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-body">
+
+    <div class="login-card">
+        <h2 style="color: var(--green-900); text-align: center; margin-bottom: 8px; font-weight: 700;">EcoMap</h2>
+        <p style="color: var(--earth-600); text-align: center; font-size: 0.95rem; margin-bottom: 30px;">
+            Ingresa tus datos para acceder
+        </p>
+
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="username">Usuario o Correo Electrónico</label>
+                <input type="text" id="username" name="username" placeholder="ejemplo@correo.com" required autocomplete="username">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required autocomplete="current-password">
+            </div>
+
+            <div style="text-align: right; margin-bottom: 25px;">
+                <a href="#" style="color: var(--green-700); font-size: 0.85rem; font-weight: 500; text-decoration: none;">
+                    ¿Olvidaste tu contraseña?
+                </a>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+        </form>
+
+        <div style="margin-top: 25px; text-align: center; font-size: 0.9rem; color: var(--earth-600);">
+            ¿No eres miembro? <a href="#" style="color: var(--green-700); text-decoration: none; font-weight: 600;">Regístrate aquí</a>
+        </div>
+    </div>
+
+</body>
+</html>
