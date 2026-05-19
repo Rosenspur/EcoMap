@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMap - Comunidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-box">Logo</span> EcoMap
+        </div>
+        <nav>
+            <a href="dashboard.html">Inicio</a>
+            <a href="mapa.html">Mapa</a>
+            <a href="publicaciones.html">Publicaciones</a>
+            <a href="#" class="active">Comunidades</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+        <div class="nav-user-info">
+            <span id="nav-user-name" class="username-display">Jorge Luis</span>
+            <div class="user-avatar" id="nav-avatar">J</div>
+        </div>
+    </header>
+
+    <main class="container communities-container">
+        
+        <div class="com-header">
+            <h1 class="com-title">Comunidades</h1>
+            <button class="btn-create-com">+ Nueva</button>
+        </div>
+
+        <section class="grid-communities">
+
+            <div class="com-card">
+                <div class="com-icon-banner icon-bg-green">
+                    <span class="com-emoji-icon">🌿</span>
+                </div>
+                <div class="com-card-body">
+                    <h3>Tamaulipas Verde</h3>
+                    <p class="com-description">Comunidad principal de flora tamaulipeca. Avistamientos, alertas y noticias ambientales.</p>
+                    <div class="com-card-footer">
+                        <span class="com-members">👤 234 miembros</span>
+                        <button class="btn-com-action btn-join">Unirse</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="com-card">
+                <div class="com-icon-banner icon-bg-cactus">
+                    <span class="com-emoji-icon">🌵</span>
+                </div>
+                <div class="com-card-body">
+                    <h3>Cactáceas del Noreste</h3>
+                    <p class="com-description">Especialistas en cactáceas y suculentas nativas de Tamaulipas y regiones limítrofes.</p>
+                    <div class="com-card-footer">
+                        <span class="com-members">👤 87 miembros</span>
+                        <button class="btn-com-action btn-joined">Miembro ✓</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="com-card">
+                <div class="com-icon-banner icon-bg-flower-pink">
+                    <span class="com-emoji-icon">🌸</span>
+                </div>
+                <div class="com-card-body">
+                    <h3>Flora en Riesgo</h3>
+                    <p class="com-description">Alertas y seguimiento a especies amenazadas de extinción en el estado de Tamaulipas.</p>
+                    <div class="com-card-footer">
+                        <span class="com-members">👤 156 miembros</span>
+                        <button class="btn-com-action btn-join">Unirse</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="com-card">
+                <div class="com-icon-banner icon-bg-flower-red">
+                    <span class="com-emoji-icon">🌺</span>
+                </div>
+                <div class="com-card-body">
+                    <h3>Jardines Silvestres</h3>
+                    <p class="com-description">Para quienes cultivan plantas nativas en sus hogares y promueven jardines con biodiversidad local.</p>
+                    <div class="com-card-footer">
+                        <span class="com-members">👤 63 miembros</span>
+                        <button class="btn-com-action btn-join">Unirse</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="comunidades.js"></script>
+</body>
+</html>
